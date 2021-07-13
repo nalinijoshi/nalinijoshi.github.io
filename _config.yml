@@ -1,2 +1,4 @@
 name: Nalini Joshi, mathematician
 markdown: kramdown
+kramdown:
+  math_engine: katex
