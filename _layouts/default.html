@@ -2,12 +2,38 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
+			<meta charset='UTF-8'>
+    			<meta content='width=device-width, initial-scale=1' name='viewport'/>
+
+    			<meta name='description' content='Nalini Joshi is a Professor of Mathematis at Sydney.'>
+    			<meta name='keywords' content='{{ page.keywords }}'>
+    			<meta name='author' content='Nalini Joshi'>
+
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
+		<div class='content'>
+   			 {% include nav.html %}
+    			<div class='front-matter'>
+        			<div class='wrap'>
+            			<h1>{{ page.title }}</h1>
+            			<h4>{{ page.subtitle }}</h4>
+            				<div class='bylines'>
+                				<div class='byline'>
+                    				<h3>Published</h3>
+                    				<p>{{ page.date |  date: '%d %B %Y' }}</p>
+                				</div>
+            				</div>
+            				<div class='clear'></div>
+        				</div>
+    				</div>
+    				<div class='wrap article'>
+        			{{ content }}
+    				</div>
+		</div>			
+		<nav>
+	    	<!-- 	<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
 	        		<li><a href="/cv">CV</a></li>
@@ -18,7 +44,7 @@
 			
 			{{ content }}
 			
-			</div><!-- /.container -->
+			</div> -->
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:nalinijoshi@me.com">email</a></li>
