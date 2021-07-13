@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Transcendentality"
+subtitle: What are transcendental functions?
 date: 2021-07-13
 katex: True
 ---
