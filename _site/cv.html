@@ -2,12 +2,12 @@
 <html>
 
 <head>
-	<title>{{ page.title }}</title>
+	<title>Title here</title>
 	<meta charset='UTF-8'>
 	<meta content='width=device-width, initial-scale=1' name='viewport' />
 
 	<meta name='description' content='Nalini Joshi is a Professor of Mathematis at Sydney.'>
-	<meta name='keywords' content='{{ page.keywords }}'>
+	<meta name='keywords' content=''>
 	<meta name='author' content='Nalini Joshi'>
 
 	<!-- link to main stylesheet -->
@@ -31,16 +31,24 @@
 <body>
 
 	<div class="content">
-		{% include nav.html %}
+		<nav>
+ 	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/cv">CV</a></li>
+		<li><a href="/blog">Blog</a></li>
+	</ul>
+</nav>
+
 		<div class='front-matter'>
 			<div class='wrap'>
-				<h1>{{ page.title }}</h1>
-				<h4>{{ page.subtitle }}</h4>
+				<h1>Title here</h1>
+				<h4></h4>
 
 			</div>
 		</div>
 		<div class='wrap article'>
-			{{ content }}
+			Coming soon!
 		</div>
 	</div>
 

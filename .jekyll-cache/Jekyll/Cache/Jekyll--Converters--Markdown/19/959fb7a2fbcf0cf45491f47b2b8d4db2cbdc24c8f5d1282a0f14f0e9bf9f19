@@ -1,0 +1,12 @@
+I"�<p>Imagine you want to define “new” functions, where <i>new</i> means functions that cannot be expressed in terms of functions you already know. Imagine that equations they satisfy arise in a wide range of applications.</p>
+
+<p>This is the starting point of the journey that led to nonlinear differential equations called the <i>Painlevé equations</i> and difference equations called the <i>disrcrete Painlevé equations</i>. The aim of this post is to describe this mathematical journey.</p>
+
+<p>This journey and its associated discoveries are so broad and the details are so rich that I will have to explain its steps in different staging posts. For now, the impatient reader may want to jump in with both feet by watching the <a href="https://www.math.ucla.edu/dls/nalini-joshi">videos of lectures</a> I gave at UCLA or reading the introductory article I wrote for Notices of the <a href="ams.org">AMS</a>, whose <a href="http://www.ams.org/journals/notices/202006/rnoti-p797.pdf">PDF</a>  is available.</p>
+
+<p>For those patient enough to go on the journey with me. I invite you to the next post.</p>
+
+<ul>
+  <li>powered by <a href="http://jekyllrb.com">Jekyll</a></li>
+</ul>
+:ET
