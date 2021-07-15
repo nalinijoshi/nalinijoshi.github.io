@@ -1,55 +1,55 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<meta charset='UTF-8'>
-    			<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<html>
 
-    			<meta name='description' content='Nalini Joshi is a Professor of Mathematis at Sydney.'>
-    			<meta name='keywords' content='{{ page.keywords }}'>
-    			<meta name='author' content='Nalini Joshi'>
+<head>
+	<title>{{ page.title }}</title>
+	<meta charset='UTF-8'>
+	<meta content='width=device-width, initial-scale=1' name='viewport' />
 
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-		<div class='content'>
-   			 {% include nav.html %}
-    			<div class='front-matter'>
-        			<div class='wrap'>
-            			<h1>{{ page.title }}</h1>
-            			<h4>{{ page.subtitle }}</h4>
-            				<div class='bylines'>
-                				<div class='byline'>
-                    				<h3>Published</h3>
-                    				<p>{{ page.date |  date: '%d %B %Y' }}</p>
-                				</div>
-            				</div>
-            				<div class='clear'></div>
-        				</div>
-    				</div>
-    				<div class='wrap article'>
-        			{{ content }}
-    				</div>
-		</div>			
-		<nav>
-	    	<!-- 	<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
+	<meta name='description' content='Nalini Joshi is a Professor of Mathematis at Sydney.'>
+	<meta name='keywords' content='{{ page.keywords }}'>
+	<meta name='author' content='Nalini Joshi'>
+
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+
+	<!-- katex stuff -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css"
+		integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+
+	<!-- The loading of KaTeX is deferred to speed up page rendering -->
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js"
+		integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp"
+		crossorigin="anonymous"></script>
+
+	<!-- To automatically render math in text elements, include the auto-render extension: -->
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js"
+		integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+		onload="renderMathInElement(document.body);"></script>
+</head>
+
+<body>
+
+	<div class="content">
+		{% include nav.html %}
+		<div class='front-matter'>
+			<div class='wrap'>
+				<h1>{{ page.title }}</h1>
+				<h4>{{ page.subtitle }}</h4>
+
+			</div>
+		</div>
+		<div class='wrap article'>
 			{{ content }}
-			
-			</div> -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:nalinijoshi@me.com">email</a></li>
-	        		<li><a href="https://github.com/nalinijoshi">github.com/nalinijoshi</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+		</div>
+	</div>
+
+	<footer>
+		<ul>
+			<li><a href="mailto:nalinijoshi@me.com">email</a></li>
+			<li><a href="https://github.com/nalinijoshi">github.com/nalinijoshi</a></li>
+		</ul>
+	</footer>
+</body>
+
+</html>

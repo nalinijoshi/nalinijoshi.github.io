@@ -3,7 +3,6 @@ layout: post
 title: "Transcendentality"
 subtitle: What are transcendental functions?
 date: 2021-07-13
-katex: True
 ---
 The topic of these posts lies at the intersection of many directions in mathematics. From time to time, you will see aspects of dynamical systems theory, asymptotics, mathematical physics, 
 differential or difference Galois theory, reflection group theory and algebraic geometry. I hope my posts will be accessible for all readers. (Feel free to email me to ask for additional explanations.) 
@@ -12,12 +11,12 @@ The journey starts with the mathematical term "transcendental". Suppose we have 
 $$ 1, 2, 3, \ldots $$.
 Addition and subtraction of counting numbers, like  
 $$ 1+3=4, 5-8=-3, \ldots $$,
-lead to the integers &Zopf;.
-Multiplication and division of (non-zero) integers lead to rational numbers &Qopf;, like
+lead to the integers $$\mathbb{Z}$$.
+Multiplication and division of (non-zero) integers lead to rational numbers $$\mathbb{Q}$$, like
 $$ 1/2, 0.3333\ldots $$.
 There are many more numbers beyond these number systems. 
 
-Suppose you want zeroes of polynomials, like $$ x^2-2=0$. A solution of a polynomial equation with integer coefficients is an algebraic number, like $$\sqrt{2}$$. 
+Suppose you want zeroes of polynomials, like $$ x^2-2=0$$. A solution of a polynomial equation with integer coefficients is an algebraic number, like $$\sqrt{2}$$. 
 But this is not the end of the construction.
 
 There are numbers called "transcendental numbers" that escape any algebraic construction. It is impossible to write them as a finite or repeating decimal expansion. 
