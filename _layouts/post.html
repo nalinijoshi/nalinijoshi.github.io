@@ -2,8 +2,10 @@
 layout: default
 katex: True
 ---
-<p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
   {{ content }}
 </div>
+
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
