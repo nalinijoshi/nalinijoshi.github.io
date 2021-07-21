@@ -3,6 +3,7 @@ layout: post
 title: "Transcendentality"
 subtitle: What are transcendental functions?
 date: 2021-07-13
+author: Nalini Joshi
 ---
 The topic of these posts lies at the intersection of many directions in mathematics. From time to time, you will see aspects of dynamical systems theory, asymptotics, mathematical physics, 
 differential or difference Galois theory, reflection group theory and algebraic geometry. I hope my posts will be accessible for all readers. (Feel free to email me to ask for additional explanations.) 
