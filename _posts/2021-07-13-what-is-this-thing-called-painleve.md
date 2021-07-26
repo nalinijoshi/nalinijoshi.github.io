@@ -8,13 +8,15 @@ date: 2021-07-13
 Imagine you want to define &ldquo;new&rdquo; functions, where <i>new</i> means functions that cannot be expressed in terms of functions you already know. Imagine that equations they satisfy arise in a wide range of applications. 
 
 This is the starting point of the journey that led to differential equations called the <i>Painlev&eacute; equations</i> and difference equations called the <i>disrcrete Painlev&eacute; equations</i>. Here are a few of these equations:
+
 $$\begin{aligned}
 &\textrm{P}_{\textrm{I}}: \quad w_{tt}=6w^2+t. \\
 &{\rm d}\textrm{P}_{\textrm{I}}:\quad w\,(\overline w+w+\underline w)=a\,n+b+c\,w,\\
 &{\rm q}\textrm{P}_{\textrm{I}}:\quad  \overline w\,\underline w =\frac{1}{w}-\,\frac{1}{a\;q^n\, w^2},\\
 \end{aligned}
 $$
-where $\overline w=w(n+1)$, $\underline w=w(n-1)$. 
+
+where $$\overline w=w(n+1), \underline w=w(n-1).$$ 
 
 The aim of this post is to describe this mathematical journey. The journey turns out to be so broad and the details so rich that I will have to expand the steps in different staging posts. The impatient reader may want to jump in with both feet by watching the <a href="https://ww3.math.ucla.edu/news-events/distinguished-lecture-series/">videos of lectures</a> I gave at UCLA or reading the introductory article I wrote for Notices of the <a href="ams.org">AMS</a>, whose <a href="http://www.ams.org/journals/notices/202006/rnoti-p797.pdf">PDF</a>  is available.
 
